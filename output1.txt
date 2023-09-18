@@ -1,0 +1,191 @@
+PROGRAMMA 1
+
+
+a) Calcolo numero token e numero frasi:
+Il file corpora1.txt è lungo 16774.0 tokens.
+Il file corpora2.txt è lungo 8541.0 tokens.
+Dunque, corpora1.txt è più lungo di corpora2.txt .
+
+Il file corpora1.txt contiene 740 frasi.
+Il file corpora2.txt contiene 344 frasi.
+Dunque, corpora1.txt ha un numero maggiore di frasi.
+
+
+b) Calcolo della lunghezza media delle frasi e dei caratteri:
+Il file corpora1.txt ha le frasi di lunghezza media di 22.667567567567566 tokens.
+Il file corpora2.txt ha le frasi di lunghezza media di 24.828488372093023 tokens.
+Quindi, il file corpora2.txt ha una lunghezza media delle frasi maggiore.
+
+Il file corpora1.txt ha una lunghezza media delle parole di 3.494157624895672 caratteri.
+Il file corpora2.txt ha una lunghezzza media delle parole di 4.3699800960074935 caratteri.
+Quindi, la lunghezza media dei caratteri nel file corpora2.txt è magggiore.
+
+
+c) Calcolo hapax nei primi 1000 token:
+Il file corpora1.txt contiene 352 hapax nei primi 1000 tokens.
+Il file corpora2.txt contiene 404 hapax nei primi 1000 tokens.
+Perciò, il numero di hapax nei primi 1000 tokens del file corpora2.txt è maggiore.
+
+
+d) Calcolo vocabolario e ricchezza lessicale all'aumentare di 500 tokens:
+Vocabolario del corpora1.txt
+Nei primi 500 tokens:
+- la grandezza del vocabolario è di 253 parole tipo,
+- la ricchezza lessicale è di 0.506 .
+Nei primi 1000 tokens:
+- la grandezza del vocabolario è di 462 parole tipo,
+- la ricchezza lessicale è di 0.462 .
+Nei primi 1500 tokens:
+- la grandezza del vocabolario è di 639 parole tipo,
+- la ricchezza lessicale è di 0.426 .
+Nei primi 2000 tokens:
+- la grandezza del vocabolario è di 770 parole tipo,
+- la ricchezza lessicale è di 0.385 .
+Nei primi 2500 tokens:
+- la grandezza del vocabolario è di 882 parole tipo,
+- la ricchezza lessicale è di 0.3528 .
+Nei primi 3000 tokens:
+- la grandezza del vocabolario è di 995 parole tipo,
+- la ricchezza lessicale è di 0.33166666666666667 .
+Nei primi 3500 tokens:
+- la grandezza del vocabolario è di 1106 parole tipo,
+- la ricchezza lessicale è di 0.316 .
+Nei primi 4000 tokens:
+- la grandezza del vocabolario è di 1225 parole tipo,
+- la ricchezza lessicale è di 0.30625 .
+Nei primi 4500 tokens:
+- la grandezza del vocabolario è di 1329 parole tipo,
+- la ricchezza lessicale è di 0.29533333333333334 .
+Nei primi 5000 tokens:
+- la grandezza del vocabolario è di 1421 parole tipo,
+- la ricchezza lessicale è di 0.2842 .
+Nei primi 5500 tokens:
+- la grandezza del vocabolario è di 1521 parole tipo,
+- la ricchezza lessicale è di 0.27654545454545454 .
+Nei primi 6000 tokens:
+- la grandezza del vocabolario è di 1631 parole tipo,
+- la ricchezza lessicale è di 0.2718333333333333 .
+Nei primi 6500 tokens:
+- la grandezza del vocabolario è di 1713 parole tipo,
+- la ricchezza lessicale è di 0.26353846153846155 .
+Nei primi 7000 tokens:
+- la grandezza del vocabolario è di 1803 parole tipo,
+- la ricchezza lessicale è di 0.25757142857142856 .
+Nei primi 7500 tokens:
+- la grandezza del vocabolario è di 1863 parole tipo,
+- la ricchezza lessicale è di 0.2484 .
+Nei primi 8000 tokens:
+- la grandezza del vocabolario è di 1937 parole tipo,
+- la ricchezza lessicale è di 0.242125 .
+Nei primi 8500 tokens:
+- la grandezza del vocabolario è di 2010 parole tipo,
+- la ricchezza lessicale è di 0.23647058823529413 .
+Nei primi 9000 tokens:
+- la grandezza del vocabolario è di 2070 parole tipo,
+- la ricchezza lessicale è di 0.23 .
+Nei primi 9500 tokens:
+- la grandezza del vocabolario è di 2158 parole tipo,
+- la ricchezza lessicale è di 0.22715789473684211 .
+Nei primi 10000 tokens:
+- la grandezza del vocabolario è di 2239 parole tipo,
+- la ricchezza lessicale è di 0.2239 .
+Nei primi 10500 tokens:
+- la grandezza del vocabolario è di 2304 parole tipo,
+- la ricchezza lessicale è di 0.21942857142857142 .
+Nei primi 11000 tokens:
+- la grandezza del vocabolario è di 2364 parole tipo,
+- la ricchezza lessicale è di 0.2149090909090909 .
+Nei primi 11500 tokens:
+- la grandezza del vocabolario è di 2414 parole tipo,
+- la ricchezza lessicale è di 0.20991304347826087 .
+Nei primi 12000 tokens:
+- la grandezza del vocabolario è di 2470 parole tipo,
+- la ricchezza lessicale è di 0.20583333333333334 .
+Nei primi 12500 tokens:
+- la grandezza del vocabolario è di 2504 parole tipo,
+- la ricchezza lessicale è di 0.20032 .
+Nei primi 13000 tokens:
+- la grandezza del vocabolario è di 2557 parole tipo,
+- la ricchezza lessicale è di 0.1966923076923077 .
+Nei primi 13500 tokens:
+- la grandezza del vocabolario è di 2639 parole tipo,
+- la ricchezza lessicale è di 0.19548148148148148 .
+Nei primi 14000 tokens:
+- la grandezza del vocabolario è di 2703 parole tipo,
+- la ricchezza lessicale è di 0.19307142857142856 .
+Nei primi 14500 tokens:
+- la grandezza del vocabolario è di 2765 parole tipo,
+- la ricchezza lessicale è di 0.1906896551724138 .
+Nei primi 15000 tokens:
+- la grandezza del vocabolario è di 2809 parole tipo,
+- la ricchezza lessicale è di 0.18726666666666666 .
+Nei primi 15500 tokens:
+- la grandezza del vocabolario è di 2842 parole tipo,
+- la ricchezza lessicale è di 0.18335483870967742 .
+Nei primi 16000 tokens:
+- la grandezza del vocabolario è di 2868 parole tipo,
+- la ricchezza lessicale è di 0.17925 .
+Nei primi 16500 tokens:
+- la grandezza del vocabolario è di 2901 parole tipo,
+- la ricchezza lessicale è di 0.17581818181818182 .
+
+Vocabolario del corpora2.txt
+Nei primi 500 tokens:
+- la grandezza del vocabolario è di 300 parole tipo,
+- la ricchezza lessicale è di 0.6 .
+Nei primi 1000 tokens:
+- la grandezza del vocabolario è di 513 parole tipo,
+- la ricchezza lessicale è di 0.513 .
+Nei primi 1500 tokens:
+- la grandezza del vocabolario è di 672 parole tipo,
+- la ricchezza lessicale è di 0.448 .
+Nei primi 2000 tokens:
+- la grandezza del vocabolario è di 833 parole tipo,
+- la ricchezza lessicale è di 0.4165 .
+Nei primi 2500 tokens:
+- la grandezza del vocabolario è di 1007 parole tipo,
+- la ricchezza lessicale è di 0.4028 .
+Nei primi 3000 tokens:
+- la grandezza del vocabolario è di 1185 parole tipo,
+- la ricchezza lessicale è di 0.395 .
+Nei primi 3500 tokens:
+- la grandezza del vocabolario è di 1352 parole tipo,
+- la ricchezza lessicale è di 0.3862857142857143 .
+Nei primi 4000 tokens:
+- la grandezza del vocabolario è di 1496 parole tipo,
+- la ricchezza lessicale è di 0.374 .
+Nei primi 4500 tokens:
+- la grandezza del vocabolario è di 1628 parole tipo,
+- la ricchezza lessicale è di 0.36177777777777775 .
+Nei primi 5000 tokens:
+- la grandezza del vocabolario è di 1755 parole tipo,
+- la ricchezza lessicale è di 0.351 .
+Nei primi 5500 tokens:
+- la grandezza del vocabolario è di 1897 parole tipo,
+- la ricchezza lessicale è di 0.3449090909090909 .
+Nei primi 6000 tokens:
+- la grandezza del vocabolario è di 2047 parole tipo,
+- la ricchezza lessicale è di 0.3411666666666667 .
+Nei primi 6500 tokens:
+- la grandezza del vocabolario è di 2199 parole tipo,
+- la ricchezza lessicale è di 0.3383076923076923 .
+Nei primi 7000 tokens:
+- la grandezza del vocabolario è di 2354 parole tipo,
+- la ricchezza lessicale è di 0.3362857142857143 .
+Nei primi 7500 tokens:
+- la grandezza del vocabolario è di 2488 parole tipo,
+- la ricchezza lessicale è di 0.3317333333333333 .
+Nei primi 8000 tokens:
+- la grandezza del vocabolario è di 2614 parole tipo,
+- la ricchezza lessicale è di 0.32675 .
+Nei primi 8500 tokens:
+- la grandezza del vocabolario è di 2741 parole tipo,
+- la ricchezza lessicale è di 0.3224705882352941 .
+
+
+e) Calcolo distribuzione in % delle parole:
+Il file corpora1.txt ha il 91.61 % di parole piene e il 52.05 % di parole funzionali.
+Il file corpora2.txt ha il 49.06 % di parole piene e il 23.33 % di parole funzionali.
+Quindi,
+il file corpora1.txt ha una percentuale maggiore di parole piene,
+il file corpora1.txt ha una percentuale maggiore di parole funzionali.

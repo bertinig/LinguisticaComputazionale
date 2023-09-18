@@ -1,0 +1,439 @@
+PROGRAMMA2 2
+
+
+1.a) Estrazione 10 PoS più frequenti in ordine decrescente
+- 10 PoS più frequenti nel file corpora1.txt
+1 ° PoS: NN con frequenza 2507
+2 ° PoS: IN con frequenza 1582
+3 ° PoS: PRP con frequenza 1408
+4 ° PoS: NNP con frequenza 1332
+5 ° PoS: VBD con frequenza 1315
+6 ° PoS: DT con frequenza 1261
+7 ° PoS: JJ con frequenza 1173
+8 ° PoS: . con frequenza 874
+9 ° PoS: RB con frequenza 796
+10 ° PoS: , con frequenza 795
+
+- 10 PoS più frequenti nel file corpora2.txt
+1 ° PoS: NN con frequenza 1221
+2 ° PoS: NNP con frequenza 1020
+3 ° PoS: IN con frequenza 953
+4 ° PoS: DT con frequenza 791
+5 ° PoS: JJ con frequenza 631
+6 ° PoS: , con frequenza 510
+7 ° PoS: NNS con frequenza 507
+8 ° PoS: . con frequenza 348
+9 ° PoS: RB con frequenza 295
+10 ° PoS: VBD con frequenza 255
+
+
+1.b) Estrazione 10 bigrammi di PoS più frequenti in ordine decrescente
+- 10 bigrammi PoS più frequenti nel file corpora1.txt
+1 ° bigramma di PoS (('.', '.'), ('“', 'NN')) con frequenza 198
+2 ° bigramma di PoS ((',', ','), ('and', 'CC')) con frequenza 98
+3 ° bigramma di PoS ((',', ','), ('”', 'NNP')) con frequenza 79
+4 ° bigramma di PoS (('“', 'NN'), ('I', 'PRP')) con frequenza 77
+5 ° bigramma di PoS (('”', 'NNP'), ('“', 'NNP')) con frequenza 77
+6 ° bigramma di PoS (('I', 'PRP'), ('’', 'VBP')) con frequenza 72
+7 ° bigramma di PoS (('of', 'IN'), ('the', 'DT')) con frequenza 54
+8 ° bigramma di PoS (('.', '.'), ('“', 'JJ')) con frequenza 48
+9 ° bigramma di PoS (('’', 'JJ'), ('t', 'NN')) con frequenza 48
+10 ° bigramma di PoS (('in', 'IN'), ('the', 'DT')) con frequenza 47
+
+- 10 bigrammi PoS più frequenti nel file corpora2.txt
+1 ° bigramma di PoS ((',', ','), ('and', 'CC')) con frequenza 50
+2 ° bigramma di PoS (('of', 'IN'), ('the', 'DT')) con frequenza 49
+3 ° bigramma di PoS ((',', ','), ('the', 'DT')) con frequenza 47
+4 ° bigramma di PoS (('’', 'NNP'), ('s', 'NN')) con frequenza 43
+5 ° bigramma di PoS (('in', 'IN'), ('the', 'DT')) con frequenza 38
+6 ° bigramma di PoS (('.', '.'), ('The', 'DT')) con frequenza 35
+7 ° bigramma di PoS (('’', 'NNP'), ('s', 'VBD')) con frequenza 30
+8 ° bigramma di PoS ((',', ','), ('a', 'DT')) con frequenza 28
+9 ° bigramma di PoS (('to', 'TO'), ('the', 'DT')) con frequenza 28
+10 ° bigramma di PoS (('.', '.'), ('In', 'IN')) con frequenza 21
+
+
+1.c) Estrazione 10 trigrammi di PoS più frequenti in ordine decrescente
+- 10 trigrammi PoS più frequenti nel file corpora1.txt
+1 ° trigramma di PoS (('.', '.'), ('“', 'NN'), ('I', 'PRP')) con frequenza 65
+2 ° trigramma di PoS ((',', ','), ('”', 'NNP'), ('said', 'VBD')) con frequenza 36
+3 ° trigramma di PoS (('“', 'NN'), ('I', 'PRP'), ('’', 'VBP')) con frequenza 30
+4 ° trigramma di PoS (('.', '.'), ('“', 'NN'), ('You', 'PRP')) con frequenza 26
+5 ° trigramma di PoS (('.', '.'), ('“', 'NN'), ('She', 'PRP')) con frequenza 15
+6 ° trigramma di PoS (('”', 'NNP'), ('said', 'VBD'), ('Tom', 'NNP')) con frequenza 14
+7 ° trigramma di PoS ((',', ','), ('”', 'NN'), ('he', 'PRP')) con frequenza 14
+8 ° trigramma di PoS (('.', '.'), ('“', 'VB'), ('What', 'WP')) con frequenza 13
+9 ° trigramma di PoS (('?', '.'), ('”', 'JJ'), ('“', 'NN')) con frequenza 13
+10 ° trigramma di PoS (('Gatsby', 'NNP'), ('.', '.'), ('“', 'NN')) con frequenza 13
+
+- 10 trigrammi PoS più frequenti nel file corpora2.txt
+1 ° trigramma di PoS (('.', '.'), ('In', 'IN'), ('the', 'DT')) con frequenza 8
+2 ° trigramma di PoS ((',', ','), ('”', 'NNP'), ('says', 'VBZ')) con frequenza 8
+3 ° trigramma di PoS ((',', ','), ('and', 'CC'), ('the', 'DT')) con frequenza 5
+4 ° trigramma di PoS (('Sleeping', 'NNP'), ('Beauty', 'NNP'), ('Cave', 'NNP')) con frequenza 4
+5 ° trigramma di PoS (('’', 'NNP'), ('s', 'VBZ'), ('most', 'JJS')) con frequenza 4
+6 ° trigramma di PoS (('river', 'NN'), ('’', 'NNP'), ('s', 'NN')) con frequenza 4
+7 ° trigramma di PoS ((',', ','), ('it', 'PRP'), ('is', 'VBZ')) con frequenza 4
+8 ° trigramma di PoS (('.', '.'), ('“', 'VB'), ('It', 'PRP')) con frequenza 4
+9 ° trigramma di PoS (('.', '.'), ('Today', 'NN'), (',', ',')) con frequenza 4
+10 ° trigramma di PoS (('one', 'CD'), ('of', 'IN'), ('the', 'DT')) con frequenza 4
+
+
+1.d) Estrazione 20 aggettivi e 20 avverbi PoS più frequenti in ordine decrescente
+- 20 aggettivi PoS più frequenti nel file corpora1.txt
+1 ° aggettivo più frequente è: JJ con frequenza 1173
+2 ° aggettivo più frequente è: ’ con frequenza 72
+3 ° aggettivo più frequente è: “ con frequenza 64
+4 ° aggettivo più frequente è: ” con frequenza 56
+5 ° aggettivo più frequente è: s con frequenza 27
+6 ° aggettivo più frequente è: little con frequenza 25
+7 ° aggettivo più frequente è: ll con frequenza 20
+8 ° aggettivo più frequente è: JJR con frequenza 19
+9 ° aggettivo più frequente è: old con frequenza 18
+10 ° aggettivo più frequente è: hot con frequenza 17
+11 ° aggettivo più frequente è: other con frequenza 15
+12 ° aggettivo più frequente è: white con frequenza 13
+13 ° aggettivo più frequente è: d con frequenza 13
+14 ° aggettivo più frequente è: t con frequenza 12
+15 ° aggettivo più frequente è: small con frequenza 11
+16 ° aggettivo più frequente è: ve con frequenza 11
+17 ° aggettivo più frequente è: last con frequenza 11
+18 ° aggettivo più frequente è: own con frequenza 10
+19 ° aggettivo più frequente è: much con frequenza 9
+20 ° aggettivo più frequente è: m con frequenza 9
+
+- 20 aggettivi PoS più frequenti nel file corpora2.txt
+1 ° aggettivo più frequente è: JJ con frequenza 631
+2 ° aggettivo più frequente è: JJS con frequenza 36
+3 ° aggettivo più frequente è: JJR con frequenza 15
+4 ° aggettivo più frequente è: s con frequenza 13
+5 ° aggettivo più frequente è: ’ con frequenza 12
+6 ° aggettivo più frequente è: most con frequenza 10
+7 ° aggettivo più frequente è: ancient con frequenza 10
+8 ° aggettivo più frequente è: literary con frequenza 10
+9 ° aggettivo più frequente è: many con frequenza 8
+10 ° aggettivo più frequente è: other con frequenza 8
+11 ° aggettivo più frequente è: local con frequenza 8
+12 ° aggettivo più frequente è: natural con frequenza 7
+13 ° aggettivo più frequente è: first con frequenza 7
+14 ° aggettivo più frequente è: “ con frequenza 7
+15 ° aggettivo più frequente è: few con frequenza 6
+16 ° aggettivo più frequente è: sled con frequenza 6
+17 ° aggettivo più frequente è: least con frequenza 5
+18 ° aggettivo più frequente è: such con frequenza 5
+19 ° aggettivo più frequente è: famous con frequenza 5
+20 ° aggettivo più frequente è: small con frequenza 5
+
+
+- 20 avverbi PoS più frequenti nel file corpora1.txt
+1 ° avverbio più frequente è RB con frequenza 796
+2 ° avverbio più frequente è WRB con frequenza 59
+3 ° avverbio più frequente è just con frequenza 29
+4 ° avverbio più frequente è here con frequenza 25
+5 ° avverbio più frequente è so con frequenza 23
+6 ° avverbio più frequente è never con frequenza 22
+7 ° avverbio più frequente è now con frequenza 22
+8 ° avverbio più frequente è when con frequenza 21
+9 ° avverbio più frequente è back con frequenza 21
+10 ° avverbio più frequente è then con frequenza 20
+11 ° avverbio più frequente è too con frequenza 19
+12 ° avverbio più frequente è away con frequenza 18
+13 ° avverbio più frequente è not con frequenza 18
+14 ° avverbio più frequente è there con frequenza 15
+15 ° avverbio più frequente è Then con frequenza 14
+16 ° avverbio più frequente è “ con frequenza 13
+17 ° avverbio più frequente è RBR con frequenza 13
+18 ° avverbio più frequente è down con frequenza 12
+19 ° avverbio più frequente è alone con frequenza 12
+20 ° avverbio più frequente è m con frequenza 12
+
+- 20 avverbi PoS più frequenti nel file corpora2.txt
+1 ° avverbio più frequente è RB con frequenza 295
+2 ° avverbio più frequente è WRB con frequenza 38
+3 ° avverbio più frequente è not con frequenza 17
+4 ° avverbio più frequente è where con frequenza 17
+5 ° avverbio più frequente è now con frequenza 11
+6 ° avverbio più frequente è also con frequenza 10
+7 ° avverbio più frequente è there con frequenza 9
+8 ° avverbio più frequente è still con frequenza 9
+9 ° avverbio più frequente è RBR con frequenza 9
+10 ° avverbio più frequente è how con frequenza 7
+11 ° avverbio più frequente è when con frequenza 7
+12 ° avverbio più frequente è here con frequenza 6
+13 ° avverbio più frequente è first con frequenza 6
+14 ° avverbio più frequente è only con frequenza 6
+15 ° avverbio più frequente è ago con frequenza 5
+16 ° avverbio più frequente è When con frequenza 5
+17 ° avverbio più frequente è probably con frequenza 4
+18 ° avverbio più frequente è just con frequenza 4
+19 ° avverbio più frequente è very con frequenza 4
+20 ° avverbio più frequente è then con frequenza 4
+
+
+2) Estrazione 20 bigrammi composti da aggettivo e sostantivo dove ogni token ha frequenza > 3 con:
+2.a) frequenza massima
+- File corpora1.txt :
+1 ° bigramma: (('’', 'JJ'), ('t', 'NN')) , la sua frequenza massima è  48
+- La frequenza relativa di ('’', 'JJ') è 72
+- La frequenza relativa di ('t', 'NN') è 90
+2 ° bigramma: (('”', 'JJ'), ('“', 'NN')) , la sua frequenza massima è  18
+- La frequenza relativa di ('”', 'JJ') è 56
+- La frequenza relativa di ('“', 'NN') è 243
+3 ° bigramma: (('’', 'JJ'), ('t', 'NNS')) , la sua frequenza massima è  11
+- La frequenza relativa di ('’', 'JJ') è 72
+- La frequenza relativa di ('t', 'NNS') è 13
+4 ° bigramma: (('”', 'JJ'), ('“', 'NNP')) , la sua frequenza massima è  11
+- La frequenza relativa di ('”', 'JJ') è 56
+- La frequenza relativa di ('“', 'NNP') è 119
+5 ° bigramma: (('“', 'JJ'), ('Come', 'NNP')) , la sua frequenza massima è  9
+- La frequenza relativa di ('“', 'JJ') è 64
+- La frequenza relativa di ('Come', 'NNP') è 12
+6 ° bigramma: (('old', 'JJ'), ('sport.', 'NN')) , la sua frequenza massima è  8
+- La frequenza relativa di ('old', 'JJ') è 18
+- La frequenza relativa di ('sport.', 'NN') è 8
+7 ° bigramma: (('s', 'JJ'), ('voice', 'NN')) , la sua frequenza massima è  6
+- La frequenza relativa di ('s', 'JJ') è 27
+- La frequenza relativa di ('voice', 'NN') è 21
+8 ° bigramma: (('”', 'JJ'), ('Tom', 'NNP')) , la sua frequenza massima è  5
+- La frequenza relativa di ('”', 'JJ') è 56
+- La frequenza relativa di ('Tom', 'NNP') è 108
+9 ° bigramma: (('old', 'JJ'), ('sport', 'NN')) , la sua frequenza massima è  5
+- La frequenza relativa di ('old', 'JJ') è 18
+- La frequenza relativa di ('sport', 'NN') è 7
+10 ° bigramma: (('“', 'JJ'), ('Daisy', 'NNP')) , la sua frequenza massima è  4
+- La frequenza relativa di ('“', 'JJ') è 64
+- La frequenza relativa di ('Daisy', 'NNP') è 80
+11 ° bigramma: (('”', 'JJ'), ('Daisy', 'NNP')) , la sua frequenza massima è  3
+- La frequenza relativa di ('”', 'JJ') è 56
+- La frequenza relativa di ('Daisy', 'NNP') è 80
+12 ° bigramma: (('long', 'JJ'), ('time', 'NN')) , la sua frequenza massima è  3
+- La frequenza relativa di ('long', 'JJ') è 4
+- La frequenza relativa di ('time', 'NN') è 16
+13 ° bigramma: (('t', 'JJ'), ('look', 'NN')) , la sua frequenza massima è  2
+- La frequenza relativa di ('t', 'JJ') è 12
+- La frequenza relativa di ('look', 'NN') è 6
+14 ° bigramma: (('yellow', 'JJ'), ('car', 'NN')) , la sua frequenza massima è  2
+- La frequenza relativa di ('yellow', 'JJ') è 5
+- La frequenza relativa di ('car', 'NN') è 26
+15 ° bigramma: (('”', 'JJ'), ('Gatsby', 'NNP')) , la sua frequenza massima è  2
+- La frequenza relativa di ('”', 'JJ') è 56
+- La frequenza relativa di ('Gatsby', 'NNP') è 98
+16 ° bigramma: (('second', 'JJ'), ('floor', 'NN')) , la sua frequenza massima è  2
+- La frequenza relativa di ('second', 'JJ') è 5
+- La frequenza relativa di ('floor', 'NN') è 5
+17 ° bigramma: (('s', 'JJ'), ('eyes', 'NNS')) , la sua frequenza massima è  2
+- La frequenza relativa di ('s', 'JJ') è 27
+- La frequenza relativa di ('eyes', 'NNS') è 27
+18 ° bigramma: (('same', 'JJ'), ('people', 'NNS')) , la sua frequenza massima è  2
+- La frequenza relativa di ('same', 'JJ') è 6
+- La frequenza relativa di ('people', 'NNS') è 18
+19 ° bigramma: (('“', 'JJ'), ('Please', 'NNP')) , la sua frequenza massima è  2
+- La frequenza relativa di ('“', 'JJ') è 64
+- La frequenza relativa di ('Please', 'NNP') è 5
+20 ° bigramma: (('’', 'JJ'), ('s', 'NN')) , la sua frequenza massima è  2
+- La frequenza relativa di ('’', 'JJ') è 72
+- La frequenza relativa di ('s', 'NN') è 42
+
+- File corpora2.txt :
+1 ° bigramma: (('young', 'JJ'), ('people', 'NNS')) , la sua frequenza massima è  2
+- La frequenza relativa di ('young', 'JJ') è 4
+- La frequenza relativa di ('people', 'NNS') è 8
+2 ° bigramma: (('sled', 'JJ'), ('runs', 'NNS')) , la sua frequenza massima è  2
+- La frequenza relativa di ('sled', 'JJ') è 6
+- La frequenza relativa di ('runs', 'NNS') è 6
+3 ° bigramma: (('other', 'JJ'), ('sledders', 'NNS')) , la sua frequenza massima è  2
+- La frequenza relativa di ('other', 'JJ') è 8
+- La frequenza relativa di ('sledders', 'NNS') è 5
+4 ° bigramma: (('natural', 'JJ'), ('history', 'NN')) , la sua frequenza massima è  2
+- La frequenza relativa di ('natural', 'JJ') è 7
+- La frequenza relativa di ('history', 'NN') è 12
+5 ° bigramma: (('s', 'JJ'), ('history', 'NN')) , la sua frequenza massima è  2
+- La frequenza relativa di ('s', 'JJ') è 11
+- La frequenza relativa di ('history', 'NN') è 12
+6 ° bigramma: (('easy', 'JJ'), ('”', 'NNP')) , la sua frequenza massima è  1
+- La frequenza relativa di ('easy', 'JJ') è 5
+- La frequenza relativa di ('”', 'NNP') è 27
+7 ° bigramma: (('other', 'JJ'), ('winter', 'NN')) , la sua frequenza massima è  1
+- La frequenza relativa di ('other', 'JJ') è 8
+- La frequenza relativa di ('winter', 'NN') è 6
+8 ° bigramma: (('literary', 'JJ'), ('Hampshire', 'NNP')) , la sua frequenza massima è  1
+- La frequenza relativa di ('literary', 'JJ') è 10
+- La frequenza relativa di ('Hampshire', 'NNP') è 9
+9 ° bigramma: (('few', 'JJ'), ('years', 'NNS')) , la sua frequenza massima è  1
+- La frequenza relativa di ('few', 'JJ') è 6
+- La frequenza relativa di ('years', 'NNS') è 14
+10 ° bigramma: (('“', 'JJ'), ('Acheron', 'NNP')) , la sua frequenza massima è  1
+- La frequenza relativa di ('“', 'JJ') è 7
+- La frequenza relativa di ('Acheron', 'NNP') è 10
+11 ° bigramma: (('literary', 'JJ'), ('route', 'NN')) , la sua frequenza massima è  1
+- La frequenza relativa di ('literary', 'JJ') è 10
+- La frequenza relativa di ('route', 'NN') è 8
+12 ° bigramma: (('social', 'JJ'), ('life', 'NN')) , la sua frequenza massima è  1
+- La frequenza relativa di ('social', 'JJ') è 5
+- La frequenza relativa di ('life', 'NN') è 5
+13 ° bigramma: (('ancient', 'JJ'), ('Necromanteion', 'NNP')) , la sua frequenza massima è  1
+- La frequenza relativa di ('ancient', 'JJ') è 10
+- La frequenza relativa di ('Necromanteion', 'NNP') è 5
+14 ° bigramma: (('new', 'JJ'), ('”', 'NN')) , la sua frequenza massima è  1
+- La frequenza relativa di ('new', 'JJ') è 4
+- La frequenza relativa di ('”', 'NN') è 14
+15 ° bigramma: (('sled', 'JJ'), ('run', 'NN')) , la sua frequenza massima è  1
+- La frequenza relativa di ('sled', 'JJ') è 6
+- La frequenza relativa di ('run', 'NN') è 9
+16 ° bigramma: (('easy', 'JJ'), ('time', 'NN')) , la sua frequenza massima è  1
+- La frequenza relativa di ('easy', 'JJ') è 5
+- La frequenza relativa di ('time', 'NN') è 8
+17 ° bigramma: (('first', 'JJ'), ('Earl', 'NNP')) , la sua frequenza massima è  1
+- La frequenza relativa di ('first', 'JJ') è 7
+- La frequenza relativa di ('Earl', 'NNP') è 5
+18 ° bigramma: (('famous', 'JJ'), ('visitors', 'NNS')) , la sua frequenza massima è  1
+- La frequenza relativa di ('famous', 'JJ') è 5
+- La frequenza relativa di ('visitors', 'NNS') è 14
+19 ° bigramma: (('’', 'JJ'), ('s', 'NN')) , la sua frequenza massima è  1
+- La frequenza relativa di ('’', 'JJ') è 12
+- La frequenza relativa di ('s', 'NN') è 48
+20 ° bigramma: (('Serbian', 'JJ'), ('officials', 'NNS')) , la sua frequenza massima è  1
+- La frequenza relativa di ('Serbian', 'JJ') è 4
+- La frequenza relativa di ('officials', 'NNS') è 6
+
+2.b) probabilità condizionata massima
+- File corpora1.txt :
+1 ° bigramma: (('long', 'JJ'), ('time', 'NN')) , la sua probabilità condizionata è  0.75
+2 ° bigramma: (('’', 'JJ'), ('t', 'NN')) , la sua probabilità condizionata è  0.6666666666666666
+3 ° bigramma: (('old', 'JJ'), ('sport.', 'NN')) , la sua probabilità condizionata è  0.4444444444444444
+4 ° bigramma: (('yellow', 'JJ'), ('car', 'NN')) , la sua probabilità condizionata è  0.4
+5 ° bigramma: (('second', 'JJ'), ('floor', 'NN')) , la sua probabilità condizionata è  0.4
+6 ° bigramma: (('same', 'JJ'), ('people', 'NNS')) , la sua probabilità condizionata è  0.3333333333333333
+7 ° bigramma: (('”', 'JJ'), ('“', 'NN')) , la sua probabilità condizionata è  0.32142857142857145
+8 ° bigramma: (('old', 'JJ'), ('sport', 'NN')) , la sua probabilità condizionata è  0.2777777777777778
+9 ° bigramma: (('next', 'JJ'), ('thirty', 'NN')) , la sua probabilità condizionata è  0.25
+10 ° bigramma: (('next', 'JJ'), ('party', 'NN')) , la sua probabilità condizionata è  0.25
+11 ° bigramma: (('blue', 'JJ'), ('car', 'NN')) , la sua probabilità condizionata è  0.25
+12 ° bigramma: (('next', 'JJ'), ('day', 'NN')) , la sua probabilità condizionata è  0.25
+13 ° bigramma: (('blue', 'JJ'), ('coupe', 'NN')) , la sua probabilità condizionata è  0.25
+14 ° bigramma: (('few', 'JJ'), ('days', 'NNS')) , la sua probabilità condizionata è  0.25
+15 ° bigramma: (('better', 'JJR'), ('telephone', 'NN')) , la sua probabilità condizionata è  0.25
+16 ° bigramma: (('s', 'JJ'), ('voice', 'NN')) , la sua probabilità condizionata è  0.2222222222222222
+17 ° bigramma: (('second', 'JJ'), ('sight', 'NN')) , la sua probabilità condizionata è  0.2
+18 ° bigramma: (('yellow', 'JJ'), ('car.', 'NN')) , la sua probabilità condizionata è  0.2
+19 ° bigramma: (('re', 'JJ'), ('things', 'NNS')) , la sua probabilità condizionata è  0.2
+20 ° bigramma: (('yellow', 'JJ'), ('light', 'NN')) , la sua probabilità condizionata è  0.2
+
+- File corpora2.txt :
+1 ° bigramma: (('young', 'JJ'), ('people', 'NNS')) , la sua probabilità condizionata è  0.5
+2 ° bigramma: (('sled', 'JJ'), ('runs', 'NNS')) , la sua probabilità condizionata è  0.3333333333333333
+3 ° bigramma: (('natural', 'JJ'), ('history', 'NN')) , la sua probabilità condizionata è  0.2857142857142857
+4 ° bigramma: (('other', 'JJ'), ('sledders', 'NNS')) , la sua probabilità condizionata è  0.25
+5 ° bigramma: (('new', 'JJ'), ('”', 'NN')) , la sua probabilità condizionata è  0.25
+6 ° bigramma: (('Serbian', 'JJ'), ('officials', 'NNS')) , la sua probabilità condizionata è  0.25
+7 ° bigramma: (('several', 'JJ'), ('Hampshire', 'NNP')) , la sua probabilità condizionata è  0.25
+8 ° bigramma: (('popular', 'JJ'), ('authors', 'NNS')) , la sua probabilità condizionata è  0.25
+9 ° bigramma: (('largest', 'JJS'), ('island', 'NN')) , la sua probabilità condizionata è  0.25
+10 ° bigramma: (('easy', 'JJ'), ('”', 'NNP')) , la sua probabilità condizionata è  0.2
+11 ° bigramma: (('social', 'JJ'), ('life', 'NN')) , la sua probabilità condizionata è  0.2
+12 ° bigramma: (('easy', 'JJ'), ('time', 'NN')) , la sua probabilità condizionata è  0.2
+13 ° bigramma: (('famous', 'JJ'), ('visitors', 'NNS')) , la sua probabilità condizionata è  0.2
+14 ° bigramma: (('small', 'JJ'), ('museum', 'NN')) , la sua probabilità condizionata è  0.2
+15 ° bigramma: (('social', 'JJ'), ('history', 'NN')) , la sua probabilità condizionata è  0.2
+16 ° bigramma: (('national', 'JJ'), ('sport', 'NN')) , la sua probabilità condizionata è  0.2
+17 ° bigramma: (('s', 'JJ'), ('history', 'NN')) , la sua probabilità condizionata è  0.18181818181818182
+18 ° bigramma: (('few', 'JJ'), ('years', 'NNS')) , la sua probabilità condizionata è  0.16666666666666666
+19 ° bigramma: (('sled', 'JJ'), ('run', 'NN')) , la sua probabilità condizionata è  0.16666666666666666
+20 ° bigramma: (('few', 'JJ'), ('friends', 'NNS')) , la sua probabilità condizionata è  0.16666666666666666
+
+2.c) forza associativa massima
+- File corpora1.txt :
+1 ° bigramma: (('’', 'JJ'), ('t', 'NN')) , la sua LMI è  231.47090731708454
+2 ° bigramma: (('’', 'JJ'), ('t', 'NNS')) , la sua LMI è  58.12251658251649
+3 ° bigramma: (('”', 'JJ'), ('“', 'NN')) , la sua LMI è  55.79179148456683
+4 ° bigramma: (('old', 'JJ'), ('sport.', 'NN')) , la sua LMI è  54.697708717185535
+5 ° bigramma: (('“', 'JJ'), ('Come', 'NNP')) , la sua LMI è  47.52918172559614
+6 ° bigramma: (('”', 'JJ'), ('“', 'NNP')) , la sua LMI è  36.531059801456536
+7 ° bigramma: (('old', 'JJ'), ('sport', 'NN')) , la sua LMI è  32.50370676513489
+8 ° bigramma: (('s', 'JJ'), ('voice', 'NN')) , la sua LMI è  31.07391307826796
+9 ° bigramma: (('long', 'JJ'), ('time', 'NN')) , la sua LMI è  20.001943658558385
+10 ° bigramma: (('second', 'JJ'), ('floor', 'NN')) , la sua LMI è  14.403713406472203
+11 ° bigramma: (('”', 'JJ'), ('Tom', 'NNP')) , la sua LMI è  13.147701710595442
+12 ° bigramma: (('t', 'JJ'), ('look', 'NN')) , la sua LMI è  12.288132818176495
+13 ° bigramma: (('same', 'JJ'), ('people', 'NNS')) , la sua LMI è  11.477202601960165
+14 ° bigramma: (('yellow', 'JJ'), ('car', 'NN')) , la sua LMI è  11.106396155297439
+15 ° bigramma: (('“', 'JJ'), ('Daisy', 'NNP')) , la sua LMI è  10.291879962522776
+16 ° bigramma: (('“', 'JJ'), ('Please', 'NNP')) , la sua LMI è  9.30482306462106
+17 ° bigramma: (('other', 'JJ'), ('car', 'NN')) , la sua LMI è  8.90917157796122
+18 ° bigramma: (('s', 'JJ'), ('eyes', 'NNS')) , la sua LMI è  7.658117592191288
+19 ° bigramma: (('”', 'JJ'), ('Daisy', 'NNP')) , la sua LMI è  7.256457932410308
+20 ° bigramma: (('next', 'JJ'), ('thirty', 'NN')) , la sua LMI è  6.954996625304576
+
+- File corpora2.txt :
+1 ° bigramma: (('young', 'JJ'), ('people', 'NNS')) , la sua LMI è  12.560089307412731
+2 ° bigramma: (('sled', 'JJ'), ('runs', 'NNS')) , la sua LMI è  12.324523236099965
+3 ° bigramma: (('other', 'JJ'), ('sledders', 'NNS')) , la sua LMI è  12.113802204784312
+4 ° bigramma: (('natural', 'JJ'), ('history', 'NN')) , la sua LMI è  10.629927515325559
+5 ° bigramma: (('s', 'JJ'), ('history', 'NN')) , la sua LMI è  9.725957267839444
+6 ° bigramma: (('popular', 'JJ'), ('authors', 'NNS')) , la sua LMI è  6.280044653706366
+7 ° bigramma: (('Serbian', 'JJ'), ('officials', 'NNS')) , la sua LMI è  5.874579545598202
+8 ° bigramma: (('few', 'JJ'), ('friends', 'NNS')) , la sua LMI è  5.874579545598202
+9 ° bigramma: (('largest', 'JJS'), ('island', 'NN')) , la sua LMI è  5.874579545598202
+10 ° bigramma: (('social', 'JJ'), ('life', 'NN')) , la sua LMI è  5.833757551077946
+11 ° bigramma: (('small', 'JJ'), ('museum', 'NN')) , la sua LMI è  5.651435994283992
+12 ° bigramma: (('national', 'JJ'), ('sport', 'NN')) , la sua LMI è  5.651435994283992
+13 ° bigramma: (('many', 'JJ'), ('authors', 'NNS')) , la sua LMI è  5.58689747314642
+14 ° bigramma: (('first', 'JJ'), ('Earl', 'NNP')) , la sua LMI è  5.497285314456733
+15 ° bigramma: (('several', 'JJ'), ('Hampshire', 'NNP')) , la sua LMI è  5.469114437490037
+16 ° bigramma: (('easy', 'JJ'), ('time', 'NN')) , la sua LMI è  5.363753921832211
+17 ° bigramma: (('most', 'JJS'), ('pilgrims', 'NNS')) , la sua LMI è  5.363753921832211
+18 ° bigramma: (('other', 'JJ'), ('winter', 'NN')) , la sua LMI è  5.1814323650382565
+19 ° bigramma: (('ancient', 'JJ'), ('Necromanteion', 'NNP')) , la sua LMI è  5.140610370518001
+20 ° bigramma: (('sled', 'JJ'), ('run', 'NN')) , la sua LMI è  5.063649329381873
+
+
+3) Estrazione frasi con un num di token tra 6 e 25, in cui ogni token ricorre almeno 2 volte nel corpus con:
+3.a) media di distribuzione dei token più alta e più bassa
+Nel file corpora1.txt la frase con distribuzione dei token
+- più alta è: ['“', 'Come', 'on', ',', 'Tom', '.'] con frequenza media dei token di 373.8333333333333
+- più bassa è: ['Is', 'it', 'hot', 'enough', 'for', 'you', '?'] con frequenza media dei token di 62.714285714285715
+
+Nel file corpora2.txt la frase con distribuzione dei token
+- più alta è: ['Kirkwall', 'is', 'indeed', 'the', 'gateway', 'to', 'the', 'Orkneys', '.'] con frequenza media dei token di 173.22222222222223
+- più bassa è: ['You', 'come', 'to', 'an', 'island', 'by', 'plane', 'or', 'by', 'ship', '.'] con frequenza media dei token di 59.27272727272727
+
+3.b) probabilità più alta.
+Nel file corpora1.txt la frase con probabilità più alta è “Anything to say about what?” inquired Gatsby politely. con probabilità 0.0007851745639052663
+
+Nel file corpora2.txt la frase con probabilità più alta è But it’s not all adventure. con probabilità 0.0004016696516533103
+
+
+4) Estrazione dei 15 nomi propri di persona più frequenti.
+- 15 nomi propri di persona più frequenti nel file corpora1.txt
+1 ° nome più frequente è Tom , con frequenza 95
+2 ° nome più frequente è Gatsby , con frequenza 67
+3 ° nome più frequente è Daisy , con frequenza 66
+4 ° nome più frequente è Wilson , con frequenza 22
+5 ° nome più frequente è Jordan , con frequenza 14
+6 ° nome più frequente è Nick , con frequenza 11
+7 ° nome più frequente è Mr.Sloane , con frequenza 8
+8 ° nome più frequente è Biloxi , con frequenza 7
+9 ° nome più frequente è Michaelis , con frequenza 7
+10 ° nome più frequente è Mr.Gatsby , con frequenza 6
+11 ° nome più frequente è DanCody , con frequenza 5
+12 ° nome più frequente è JamesGatz , con frequenza 4
+13 ° nome più frequente è JayGatsby , con frequenza 4
+14 ° nome più frequente è MyrtleWilson , con frequenza 4
+15 ° nome più frequente è LakeSuperior , con frequenza 3
+
+- 15 nomi proprio di persona più frequenti nel file corpora2.txt
+1 ° nome più frequente è Katallozi , con frequenza 18
+2 ° nome più frequente è Acheron , con frequenza 6
+3 ° nome più frequente è Austen , con frequenza 6
+4 ° nome più frequente è JaneAusten , con frequenza 6
+5 ° nome più frequente è Glykí , con frequenza 5
+6 ° nome più frequente è Kosovo , con frequenza 4
+7 ° nome più frequente è Davos , con frequenza 4
+8 ° nome più frequente è Kirkwall , con frequenza 4
+9 ° nome più frequente è ConanDoyle , con frequenza 4
+10 ° nome più frequente è CharlesDickens , con frequenza 4
+11 ° nome più frequente è Bojku , con frequenza 3
+12 ° nome più frequente è Houghton , con frequenza 3
+13 ° nome più frequente è Keats , con frequenza 3
+14 ° nome più frequente è Thomas , con frequenza 3
+15 ° nome più frequente è Steep , con frequenza 3
